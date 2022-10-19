@@ -62,4 +62,4 @@ function genrateHexValueAndChangeBodyColor() {
 inputSliderElementForRed.addEventListener("input", redValueFunction);
 inputSliderElementForGreen.addEventListener("input", greenValueFunction);
 inputSliderElementForBlue.addEventListener("input", blueValueFunction);
-document.addEventListener("input");
+document.addEventListener("input", genrateHexValueAndChangeBodyColor);
